@@ -6,7 +6,7 @@ class CarsController < ApplicationController
 
     def create
         car = Car.create(carparams)
-        render json: cars
+        render json: car
     end
 
     private
