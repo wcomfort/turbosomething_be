@@ -4,7 +4,7 @@ class CreateCars < ActiveRecord::Migration[6.0]
       t.string :picture
       t.string :make
       t.string :model
-      t.string :price
+      t.integer :price
       t.integer :hp
       t.integer :tq
       t.text :des

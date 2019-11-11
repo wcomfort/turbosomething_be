@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2019_11_08_171214) do
     t.string "picture"
     t.string "make"
     t.string "model"
-    t.string "price"
+    t.integer "price"
     t.integer "hp"
     t.integer "tq"
     t.text "des"
