@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :cars, only: [:index, :create]
-  resources :users, only: [:index]
+  resources :users, only: [:index, :create]
   resources :user_cars, only: [:index, :create, :destroy]
   post '/login', to: 'application#login'
   # resources :users
