@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    user = Car.create(userparams)
+    user = User.create(userparams)
     render json: user
   end
   private
